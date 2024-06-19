@@ -1,0 +1,91 @@
+body {
+    background-image: url('./images.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 190%;
+    background-position: center;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+#ghj {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: rgba(29, 128, 4, 0.7);
+    box-shadow: 0 0 10px rgba(29, 128, 4, 0.865);
+    align-items: center;
+    border-radius: 30px;
+    font-family: cursive;
+    padding-bottom: 30px;
+}
+
+#ssd {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(107, 225, 107);
+    border: 2px solid green;
+    font-size: large;
+}
+
+#ssd:hover {
+    background-color: rgb(15, 179, 15);
+    color: white;
+
+}
+
+.aas {
+    display: flex;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    width: 220px;
+    height: 25px;
+    padding-left: 20px;
+}
+
+#wwe {
+    display: flex;
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(15, 179, 15);
+
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+}
+
+
+@media (max-width : 620px) {
+    #ghj {
+        width: 90%;
+        height: 90%;
+    }
+
+    h1 {
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width:1024px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+}
