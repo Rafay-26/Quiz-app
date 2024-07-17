@@ -1,0 +1,87 @@
+/* quiz css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAF5E9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./images.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 190%;
+    /* background-size: cover; */
+
+}
+
+#navbar {
+    background-color: #12942e;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(29, 128, 4, 0.2);
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(29, 128, 4, 0.865);
+
+}
+
+.time {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+
+#question {
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: whitesmoke;
+}
+
+.after {
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+#btn {
+    display: block;
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    background-color: #12942e;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    margin:  auto;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    #main {
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    #timer {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
